@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PageFontStyle</title>
+</head>
+<body>
+    <input type="text" id="FontColor">
+    <input type="submit" value="Change" id="btnChange">
+</body>
+</html>
+
+<!-- the code to highlight the page action extension and make the popup accessible needs to go in eventpage. because eventpage runs in background and we can access popup.html. 
+And if we write that code to access popup.html in popup.js we can never access popup.html because popup.js(because it itself referenced in popup.html) never executes. -->
